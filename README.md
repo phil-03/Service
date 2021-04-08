@@ -7,7 +7,7 @@ Visual Studio must be run as admin.
 Will update soon with installation and instruction on running program..
 
 Parameters: 
--query -> Obtains and displays information about the specified service
+-query -> Obtains and displays information about the specified service <br />
 -create -> Creates a subkey and entries for a service in the registry and in the Service Control Manager database.
 -qdescription -> Displays the description string for a specified service.
 -start -> Starts a service
