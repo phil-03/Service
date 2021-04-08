@@ -550,7 +550,7 @@ cleanup:
 }
 
 
-//*********************Still needs work - invalid handle or pointer error ***********************
+//*******************Still needs work - invalid handle or pointer error *********************
 //Objective - Specifies the failure option of a service dies
 void ServiceFailure() {
 
