@@ -9,6 +9,9 @@
 using namespace std;
 
 
+//=======================Global Variables==========================//
+#define SVCNAME TEXT("NEW-TEMP")
+
 //=======================Service Configuration==================//
 //Objective - Installs our service in SCM database
 //Steps:
