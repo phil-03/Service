@@ -6,7 +6,7 @@ Visual Studio must be run as admin.
 
 >**Will update soon with installation notes and instruction on running program..
 
-##Parameters: <br />
+<b>Parameters:</b> <br />
 -query -> Obtains and displays information about the specified service <br />
 -create -> Creates a subkey and entries for a service in the registry and in the Service Control Manager database. <br />
 -qdescription -> Displays the description string for a specified service. <br />
@@ -17,6 +17,6 @@ Visual Studio must be run as admin.
 -failure -> Specifies one or more actions to take if a service fails. <br />
 
 
-##USAGE:
+<b>USAGE: </b><br />
 
-##EXAMPLE:<br />
+<b>EXAMPLE: </b><br />
