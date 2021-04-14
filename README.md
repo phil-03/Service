@@ -21,7 +21,6 @@ In VS, on the start window, select Clone a repository. Enter or type the reposit
 
 ### Additional Option & Arguments:
 * query        - Obtains and displays information about the specified service <br />
-                    -
 
 * config       - Modifies the value of a service's entries in the registry and in the Service Control Manager database. <br />
                     - start type = {auto | manual | disabled} <br />
@@ -32,7 +31,7 @@ In VS, on the start window, select Clone a repository. Enter or type the reposit
 
 ### USAGE EXAMPLE: 
 
->Program is run with standard input instead of commandline. Demonstrates walkthrough of options as you progess.
+>Program is run with standard input instead of commandline. Demonstrates walkthrough of options as you progress.
 
 
 ### Future TODOS:
