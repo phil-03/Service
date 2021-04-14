@@ -1,5 +1,5 @@
 # SC.EXE
-Implementation of Windows SC.exe utility in C++
+Partial implementation of Windows SC.exe utility in C++
 
 
 ## NOTE 
@@ -19,6 +19,7 @@ In VS, on the start window, select Clone a repository. Enter or type the reposit
 * stop         - Stops a service. <br />
 * delete       - Deletes a service subkey from the registry. <br />
 
+
 ### Additional Option & Arguments:
 * query        - Obtains and displays information about the specified service <br />
 
@@ -28,10 +29,9 @@ In VS, on the start window, select Clone a repository. Enter or type the reposit
 * failure(TBD) - Specifies one or more actions to take if a service fails. <br />
 
 
-
 ### USAGE EXAMPLE: 
 
->Program is run with standard input instead of commandline. Demonstrates walkthrough of options as you progress.
+>Program is run with standard input instead of commandline. Simple run as is. Demonstrates walkthrough of options as you progress.
 
 
 ### Future TODOS:
