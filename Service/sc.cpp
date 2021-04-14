@@ -1,10 +1,3 @@
-/*
-Name: Philip B.
-Last Modified: 4/8/21
-Description: Mainly outlines sc.exe implementation - see README
-
-*/
-
 #include <iostream>
 #include <tchar.h>
 #include <strsafe.h>
@@ -12,7 +5,7 @@ Description: Mainly outlines sc.exe implementation - see README
 #include <atlstr.h>
 #include "Control.h"
 #include "Config.h"
-#pragma comment(lib, "advapi32.lib") 
+ 
 
 using namespace std;
 
@@ -108,7 +101,7 @@ int main(int argc, CHAR* argv[]) { //Will implement as command line later
    else if (lstrcmpiA(input, "Failure") == 0) {
 
       //Call to ServiceFailure
-      cout << "Here are some options for service failure: " << endl;
+      //cout << "Here are some options for service failure: " << endl;
       ServiceFailure();
       
 
@@ -140,7 +133,6 @@ int main(int argc, CHAR* argv[]) { //Will implement as command line later
 
    }
 
-   //system("PAUSE"); 
 
    return 0;
 

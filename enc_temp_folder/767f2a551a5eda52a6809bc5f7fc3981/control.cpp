@@ -10,6 +10,12 @@
 using namespace std;
 
 
+CHAR rboot[50] = "";
+CHAR rst[50] = "";
+CHAR cmd[100] = "";
+CHAR action[100] = "";
+
+
 //*********************Service Control ******************************
 void ServiceEnable() {
 
