@@ -23,18 +23,19 @@ In VS, on the start window, select Clone a repository. Enter or type the reposit
 * query        - Obtains and displays information about the specified service <br />
                     -
 
-* config -> Modifies the value of a service's entries in the registry and in the Service Control Manager database. <br />
-                    - start type = {auto | manual | disabled} 
+* config       - Modifies the value of a service's entries in the registry and in the Service Control Manager database. <br />
+                    - start type = {auto | manual | disabled} <br />
 
-* failure -> Specifies one or more actions to take if a service fails. <br />
+* failure(TBD) - Specifies one or more actions to take if a service fails. <br />
 
 
 
 ### USAGE EXAMPLE: 
 
->sc.exe config [servicename] [start= {auto | demand | disabled | delayed-auto}] [error= {normal | severe | critical | ignore}] [binpath= binarypathname] 
+>Program is run with standard input instead of commandline. Demonstrates walkthrough of options as you progess.
 
 
 ### Future TODOS:
-Improve command line usage
-Add more capabilities
+- Switch to command line usage
+- Fix ServiceFailure func.
+- Add more function capabilities
