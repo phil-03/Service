@@ -7,7 +7,7 @@ It is best to run this program in a virutal machine. Any antivirus will need to 
 Visual Studio must be run as admin.
 
 
-## Installation
+### Installation:
 For regular install, just clone the cpp and header file to local directory. Compile and run as normal.
 In VS, on the start window, select Clone a repository. Enter or type the repository location, and then select Clone.
 
@@ -24,7 +24,10 @@ In VS, on the start window, select Clone a repository. Enter or type the reposit
 * query        - Obtains and displays information about the specified service <br />
 
 * config       - Modifies the value of a service's entries in the registry and in the Service Control Manager database. <br />
-                    - start type = {auto | manual | disabled} <br />
+                    - Start Type = {auto | manual | disabled} <br />
+                    - Error - {normal | severe | critical | ignore} 
+                    - Binpath=
+                    - Displayname=
 
 * failure(TBD) - Specifies one or more actions to take if a service fails. <br />
 
@@ -37,4 +40,4 @@ In VS, on the start window, select Clone a repository. Enter or type the reposit
 ### Future TODOS:
 - Switch to command line usage
 - Fix ServiceFailure func.
-- Add more function capabilities
+- Add more capabilities
