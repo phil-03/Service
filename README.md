@@ -25,9 +25,9 @@ In VS, on the start window, select Clone a repository. Enter or type the reposit
 
 * config       - Modifies the value of a service's entries in the registry and in the Service Control Manager database. <br />
                     - Start Type = {auto | manual | disabled} <br />
-                    - Error - {normal | severe | critical | ignore} 
-                    - Binpath=
-                    - Displayname=
+                    - Error - {normal | severe | critical | ignore}  <br />
+                    - Binpath= <br /> 
+                    - Displayname= <br />
 
 * failure(TBD) - Specifies one or more actions to take if a service fails. <br />
 
